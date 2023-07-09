@@ -1,0 +1,9 @@
+gcloud storage ls --recursive gs://BUCKET_NAME/**
+
+gcloud dataproc jobs submit pyspark --cluster=cluster-1203-1 --region=us-central1 gs://pysprak_jul0823/sparkdemo.py
+
+When cluster is in on-premise:
+
+You login into Edge Node using SSH -> Submit spark Job
+
+
